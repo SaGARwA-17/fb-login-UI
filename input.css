@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .input{
+        @apply ml-4 mr-4 mt-4 pl-3 pr-36 py-3 border text-lg rounded-md focus:outline-none focus:to-blue-800 focus:ring-1 focus:shadow-blue-800;
+    }
+}
